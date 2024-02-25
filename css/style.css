@@ -922,31 +922,9 @@ ol {
 .main-input:focus,
 .main-input:hover {
   border-color: #2196f3;
-}
-
-.main-input:invalid + .icon-name {
-  fill: #212121;
-}
-
-.main-input:valid + .icon-name {
   fill: #2196f3;
 }
 
-.main-input:invalid + .icon-tel {
-  fill: #212121;
-}
-
-.main-input:valid + .icon-tel {
-  fill: #2196f3;
-}
-
-.main-input:invalid + .icon-post {
-  fill: #212121;
-}
-
-.main-input:valid + .icon-post {
-  fill: #2196f3;
-}
 .comment {
   width: 100%;
   min-height: 120px;
@@ -994,12 +972,6 @@ ol {
   border-color: #188ce8;
   cursor: pointer;
 }
-
-/* .modal-btn:focus,
-.modal-btn:hover .icon-galochka {
-  background: #2196f3;
-  outline: #2196f3;
-} */
 
 .modal-text {
   font-family: 'Roboto', sans-serif;
