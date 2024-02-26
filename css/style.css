@@ -1032,7 +1032,7 @@ ol {
 }
 
 .checkbox:hover + .icon-galochka {
-  background-color: #2196f3;
+  /* background-color: #2196f3; */
   outline-color: #2196f3;
 }
 
