@@ -971,6 +971,9 @@ ol {
   color: #fff;
   border-color: #188ce8;
   cursor: pointer;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-text {
@@ -1014,26 +1017,26 @@ ol {
   justify-content: center;
   width: 16px;
   height: 15px;
-  border-radius: 4px;
-  outline: 2px solid #212121;
-  outline-offset: -2px;
-
-  transition: background-color 250ms linear, outline-color 250ms linear;
+  border-radius: 2px;
+  border: 2px solid #212121;
+  transition: background-color 250ms linear, border-color 250ms linear;
 }
 
-.checkbox:checked + .icon-galochka {
+.icon-galochka:hover {
+  border-color: #2196f3;
+}
+
+.checkbox:checked + span .icon-galochka {
   background-color: #2196f3;
-  outline-color: #2196f3;
+  border-color: #2196f3;
 }
 
-.checkbox:focus + .icon-galochka {
-  /* background-color: #2196f3; */
-  outline-color: #2196f3;
+.checkbox:focus + span .icon-galochka {
+  border-color: #2196f3;
 }
 
-.checkbox:hover + .icon-galochka {
-  /* background-color: #2196f3; */
-  outline-color: #2196f3;
+.checkbox:hover + span .icon-galochka {
+  border-color: #2196f3;
 }
 
 .checkbox-container {
@@ -1046,12 +1049,6 @@ ol {
   padding: 0px 16px;
 }
 
-.modal-btn-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .checkbox {
   position: absolute;
 }
